@@ -4,7 +4,7 @@
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: var(--spacing-xl);
 }
 
@@ -65,5 +65,25 @@
 @media (max-width: 768px) {
     .projects-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .project-card {
+        padding: var(--spacing-md);
+    }
+
+    .project-icon {
+        width: 64px;
+        height: 64px;
+        font-size: 2.5rem;
+    }
+
+    .project-header h3 {
+        font-size: 1.25rem;
+    }
+
+    .project-description {
+        font-size: 0.9375rem;
     }
 }

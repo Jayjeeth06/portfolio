@@ -107,3 +107,23 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 480px) {
+    .skill-category {
+        padding: var(--spacing-md);
+    }
+
+    .category-icon {
+        width: 48px;
+        height: 48px;
+        font-size: 2rem;
+    }
+
+    .category-header h3 {
+        font-size: 1.125rem;
+    }
+
+    .skill-name {
+        font-size: 0.875rem;
+    }
+}

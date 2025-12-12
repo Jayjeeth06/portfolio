@@ -137,3 +137,38 @@
         align-self: flex-start;
     }
 }
+
+@media (max-width: 480px) {
+    .education-timeline {
+        padding-left: 24px;
+    }
+
+    .education-timeline::before {
+        left: 8px;
+    }
+
+    .timeline-icon {
+        left: -24px;
+        width: 20px;
+        height: 20px;
+        font-size: 0.625rem;
+        border-width: 2px;
+    }
+
+    .timeline-content {
+        padding: var(--spacing-md);
+    }
+
+    .timeline-header h3 {
+        font-size: 1.125rem;
+    }
+
+    .timeline-institution {
+        font-size: 0.875rem;
+    }
+
+    .grade-badge {
+        padding: 0.375rem 0.75rem;
+        font-size: 0.875rem;
+    }
+}

@@ -127,3 +127,27 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 480px) {
+    .contact-form {
+        padding: var(--spacing-md);
+    }
+
+    .contact-method {
+        padding: var(--spacing-sm);
+    }
+
+    .method-icon {
+        width: 48px;
+        height: 48px;
+        font-size: 1.5rem;
+    }
+
+    .method-content h4 {
+        font-size: 1rem;
+    }
+
+    .method-content p {
+        font-size: 0.875rem;
+    }
+}
